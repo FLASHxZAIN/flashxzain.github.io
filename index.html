@@ -18,14 +18,15 @@
       box-sizing: border-box;
     }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--bg-dark);
-      color: var(--text-light);
-      padding: 2rem;
-      text-align: center;
-    }
-
+body {
+  /* Light background color */
+  background: rgba(255, 255, 255, 0.6);
+  /* Apply blur effect */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  min-height: 100vh;
+  margin: 0;
+}
     header {
       padding: 2rem 1rem;
     }
